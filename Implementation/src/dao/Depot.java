@@ -5,14 +5,16 @@ import java.util.Collections;
 import java.util.List;
 
 import modele.Annonce;
+import modele.Demande;
 import modele.Utilisateur;
 import patrons.Observateur;
 
-// DAO : stockage en memoire des utilisateurs, annonces.
+// DAO : stockage en memoire des utilisateurs, annonces et demandes.
 public class Depot {
 
     private List<Utilisateur> utilisateurs = new ArrayList<>();
     private List<Annonce> annonces = new ArrayList<>();
+    private List<Demande> demandes = new ArrayList<>();
 
     public void ajouterUtilisateur(Utilisateur u) {
         if (chercherParEmail(u.getEmail()) != null) {
@@ -27,6 +29,10 @@ public class Depot {
 
     public void supprimerAnnonce(Annonce a) {
         annonces.remove(a);
+    }
+
+    public void ajouterDemande(Demande d) {
+        demandes.add(d);
     }
 
     // Retourne l'utilisateur ayant cet email, ou null s'il n'existe pas.
@@ -52,4 +58,5 @@ public class Depot {
 
     public List<Utilisateur> getUtilisateurs() { return Collections.unmodifiableList(utilisateurs); }
     public List<Annonce> getAnnonces() { return Collections.unmodifiableList(annonces); }
+    public List<Demande> getDemandes() { return Collections.unmodifiableList(demandes); }
 }

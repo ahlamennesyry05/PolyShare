@@ -51,6 +51,7 @@ public abstract class Utilisateur implements Observateur {
     }
 
     public void ajouterAnnonce(Annonce a) { annonces.add(a); }
+    public void retirerAnnonce(Annonce a) { annonces.remove(a); }
     public void ajouterDemande(Demande d) { demandes.add(d); }
     public void ajouterEvaluationRedigee(Evaluation e) { evaluationsRedigees.add(e); }
 

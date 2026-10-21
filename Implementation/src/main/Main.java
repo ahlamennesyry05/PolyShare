@@ -25,7 +25,7 @@ public class Main {
         titre("1. L'administrateur crée les comptes");
         Utilisateur sara = admin.creerCompte("Bouarafa", "Sara", "sara.bouarafa@polyshare.fr", "ETUDIANT");
         Utilisateur hiba = admin.creerCompte("Sebban", "Hiba", "hiba.sebban@polyshare.fr", "ETUDIANT");
-        Utilisateur ahlam = admin.creerCompte("en-nesyry", "Ahlam", "ahlam.ennesayry@polyshare.fr", "ENSEIGNANT");
+        Utilisateur ahlam = admin.creerCompte("En-nesyry", "Ahlam", "ahlam.ennesyry@polyshare.fr", "ENSEIGNANT");
         for (Utilisateur u : depot.getUtilisateurs()) {
             System.out.println(" Compte créé : " + u);
         }
@@ -52,8 +52,8 @@ public class Main {
         }
 
         titre("4. Demande, acceptation et évaluation");
-        Demande d = new Demande(1, livre, hiba);
-        livre.ajouterDemande(d);
+        Demande d = new Demande(1, livre, hiba); // le constructeur rattache deja la demande a l'annonce
+        depot.ajouterDemande(d);
         System.out.println("   " + d);
         d.accepter();
         System.out.println("   " + d + " | annonce : " + livre.getStatut());

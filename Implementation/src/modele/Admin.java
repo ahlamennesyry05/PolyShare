@@ -29,9 +29,9 @@ public class Admin {
         int id = depot.getUtilisateurs().size() + 1;
         Utilisateur u;
         if ("ENSEIGNANT".equalsIgnoreCase(role)) {
-            u = new Enseignant(id, prenom, nom, email, MOT_DE_PASSE_PAR_DEFAUT, FILIERE_PAR_DEFAUT);
+            u = new Enseignant(id, prenom, nom, email, MOT_DE_PASSE_PAR_DEFAUT, DEP_PAR_DEFAUT);
         } else if ("ETUDIANT".equalsIgnoreCase(role)) {
-            u = new Etudiant(id, prenom, nom, email, MOT_DE_PASSE_PAR_DEFAUT, DEP_PAR_DEFAUT);
+            u = new Etudiant(id, prenom, nom, email, MOT_DE_PASSE_PAR_DEFAUT, FILIERE_PAR_DEFAUT);
         } else {
             throw new IllegalArgumentException("Role inconnu : " + role);
         }
@@ -44,9 +44,10 @@ public class Admin {
         a.publierAnnonce();
     }
 
-    // Supprime une annonce de la plateforme.
+    // Supprime une annonce de la plateforme (depot + liste de son auteur).
     public void supprimerAnnonce(Annonce a) {
         depot.supprimerAnnonce(a);
+        a.getAuteur().retirerAnnonce(a);
     }
 
     // Gestion de compte : reinitialise le mot de passe de l'utilisateur.
