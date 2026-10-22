@@ -50,15 +50,20 @@ Le `Main` déroule cinq étapes :
 
 ## Diagrammes UML
 
-| Diagramme | Fichier |
-|---|---|
-| Cas d'utilisation | [cas-utilisation.png](docs/diagrammes/cas-utilisation.png) |
-| Classes | [diagramme-classes.png](docs/diagrammes/diagramme-classes.png) |
-| Séquence : authentification | [sequence-authentification.png](docs/diagrammes/sequence-authentification.png) |
-| Séquence : création d'annonce (Factory) | [sequence-creation-annonce.png](docs/diagrammes/sequence-creation-annonce.png) |
-| Séquence : notification (Observateur) | [sequence-notification.png](docs/diagrammes/sequence-notification.png) |
+### Cas d'utilisation
+![Diagramme de cas d'utilisation](docs/diagrammes/cas-utilisation.png)
 
+### Diagramme de classes
 ![Diagramme de classes](docs/diagrammes/diagramme-classes.png)
+
+### Séquence : authentification (Contrôleur)
+![Séquence authentification](docs/diagrammes/sequence-authentification.png)
+
+### Séquence : création d'annonce (Factory)
+![Séquence création d'annonce](docs/diagrammes/sequence-creation-annonce.png)
+
+### Séquence : notification (Observateur)
+![Séquence notification](docs/diagrammes/sequence-notification.png)
 
 ## Équipe
 
