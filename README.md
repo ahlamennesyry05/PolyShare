@@ -51,7 +51,8 @@ Le `Main` déroule cinq étapes :
 ## Diagrammes UML
 
 ### Cas d'utilisation
-![Diagramme de cas d'utilisation](docs/diagrammes/cas-utilisation.png)
+<img width="334" height="224" alt="image" src="https://github.com/user-attachments/assets/35276821-3194-46a1-8931-1dde23fb5dd7" />
+
 
 ### Diagramme de classes
 ![Diagramme de classes](docs/diagrammes/diagramme-classes.png)
