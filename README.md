@@ -52,6 +52,13 @@ Le `Main` déroule cinq étapes :
 
 ### Cas d'utilisation
 <img width="418" height="316" alt="image" src="https://github.com/user-attachments/assets/f4f508dc-ca0d-430e-92ed-b11be9c5b2b7" />
+### digrames descriptives
+1
+<img width="437" height="341" alt="image" src="https://github.com/user-attachments/assets/466c1f97-93e4-4475-a81f-4e9be66bcd5e"
+2
+  <img width="261" height="335" alt="image" src="https://github.com/user-attachments/assets/f3c5b07a-7635-4b2c-a960-e08479c4feaf" />
+
+
 
 ### Diagramme de classes
 <img width="382" height="410" alt="image" src="https://github.com/user-attachments/assets/d09519c5-884d-4910-89a4-fec390180844" />
