@@ -51,20 +51,19 @@ Le `Main` déroule cinq étapes :
 ## Diagrammes UML
 
 ### Cas d'utilisation
-<img width="334" height="224" alt="image" src="https://github.com/user-attachments/assets/35276821-3194-46a1-8931-1dde23fb5dd7" />
-
+<img width="418" height="316" alt="image" src="https://github.com/user-attachments/assets/f4f508dc-ca0d-430e-92ed-b11be9c5b2b7" />
 
 ### Diagramme de classes
-![Diagramme de classes](docs/diagrammes/diagramme-classes.png)
+<img width="382" height="410" alt="image" src="https://github.com/user-attachments/assets/d09519c5-884d-4910-89a4-fec390180844" />
 
 ### Séquence : authentification (Contrôleur)
-![Séquence authentification](docs/diagrammes/sequence-authentification.png)
+<img width="362" height="326" alt="image" src="https://github.com/user-attachments/assets/e0589b8e-e21e-4a57-b6b4-377ecb057098" />
 
 ### Séquence : création d'annonce (Factory)
-![Séquence création d'annonce](docs/diagrammes/sequence-creation-annonce.png)
+<img width="491" height="413" alt="image" src="https://github.com/user-attachments/assets/77d92190-113b-4b51-9410-77e76c55da0a" />
 
 ### Séquence : notification (Observateur)
-![Séquence notification](docs/diagrammes/sequence-notification.png)
+<img width="424" height="413" alt="image" src="https://github.com/user-attachments/assets/bd5fc4e2-91c1-4160-b99d-e60e64a3b109" />
 
 ## Équipe
 
